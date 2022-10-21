@@ -1,0 +1,2 @@
+1. The bug was that the sum function is passing in two strings, so the addition is performing string concat instead of addition.
+2. To fix this, we can call parseInt(num1, 10) and parseInt(num2, 10) to convert the numbers to integers, convincing javascript to do numerical math instead of string concatination. 
